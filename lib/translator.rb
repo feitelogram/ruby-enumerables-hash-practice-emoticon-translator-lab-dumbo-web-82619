@@ -15,9 +15,10 @@ def load_library(filepath)
   #binding.pry
 end
 
-def get_japanese_emoticon (jmot)
+def get_japanese_emoticon (filepath)
   # code goes here
   library = load_library(filepath)
+  library
   binding.pry
 end
 
